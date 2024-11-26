@@ -28,12 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Convertir y ejecutar el archivo Jupyter Notebook como script
-      - name: Run Jupyter Notebook
-        run: |
-          pip install nbconvert
-          jupyter nbconvert --to script Arango_Andres_Analizando_EA1.ipynb
-          python Arango_Andres_Analizando_EA1.ipynb
 
       # Ejecutar pruebas automatizadas con pytest
       - name: Run tests
