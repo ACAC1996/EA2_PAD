@@ -38,5 +38,5 @@ jobs:
       # Opcional: Despliegue continuo
       - name: Deploy
         run: |
-          echo "Aquí puedes añadir tus scripts de despliegue"
-          echo "Por ejemplo, usar AWS CLI, Docker, u otros sistemas"
+          echo "Despliegue continuo..."
+          echo "..."
