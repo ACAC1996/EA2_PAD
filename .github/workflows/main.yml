@@ -33,7 +33,7 @@ jobs:
         run: |
           pip install nbconvert
           jupyter nbconvert --to script Arango_Andres_Analizando_EA1.ipynb
-          python nombre_del_notebook.py
+          python Arango_Andres_Analizando_EA1.ipynb
 
       # Ejecutar pruebas automatizadas con pytest
       - name: Run tests
